@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout1" android:background="#ff000000"
+              android:layout_width="300.0dip" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@+id/textView11"
+                  android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="right"
+                  android:id="@+id/count_textView" android:layout_width="150.0dip" android:layout_height="fill_parent"
+                  android:text="@string/elt_count"/>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left"
+                  android:id="@+id/countinfo_textView" android:layout_width="wrap_content"
+                  android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_weight="2.0"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="right"
+                  android:id="@+id/item_textTitle" android:layout_width="150.0dip" android:layout_height="fill_parent"
+                  android:text="@string/elt_item_title"/>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left"
+                  android:id="@+id/item_textView" android:layout_width="wrap_content" android:layout_height="fill_parent"
+                  android:layout_marginLeft="5.0dip" android:layout_weight="2.0"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="right"
+                  android:id="@+id/status_textView" android:layout_width="150.0dip" android:layout_height="wrap_content"
+                  android:text="@string/elt_status"/>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left"
+                  android:id="@+id/statusinfo_textView" android:layout_width="wrap_content"
+                  android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/elt_ON"
+                  android:layout_weight="2.0"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="right"
+                  android:id="@id/timertitle_textView" android:layout_width="150.0dip"
+                  android:layout_height="fill_parent" android:text="@string/elt_timer"/>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left"
+                  android:id="@id/timer_textView" android:layout_width="wrap_content"
+                  android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_weight="2.0"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@+id/textView1111"
+                  android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/stopbutton" android:layout_width="142.0dip"
+                android:layout_height="wrap_content" android:text="@string/elt_manual_stop"/>
+    </LinearLayout>
+</LinearLayout>

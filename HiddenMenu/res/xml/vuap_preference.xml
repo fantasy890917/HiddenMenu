@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:title="@string/list_virtual_uap">
+    <EditTextPreference
+            android:title="@string/simulate_sim_card"
+            android:dialogTitle="@string/simulate_sim_card"
+            android:key="simulate_sim_card"
+            android:inputType="text"
+            />
+
+    <EditTextPreference
+            android:title="@string/browser_ua_string"
+            android:dialogTitle="@string/browser_ua_string"
+            android:key="browser_ua"
+            android:inputType="text"
+            />
+    <PreferenceScreen
+            android:title="@string/browser_ua_profile_url"
+            android:key="browser_uap">
+
+    </PreferenceScreen>
+    <EditTextPreference
+            android:title="@string/mms_ua_string"
+            android:dialogTitle="@string/mms_ua_string"
+            android:key="mms_ua"
+            android:inputType="text"
+            />
+
+    <EditTextPreference
+            android:title="@string/mms_ua_profile_url"
+            android:dialogTitle="@string/mms_ua_profile_url"
+            android:key="mms_uap"
+            android:inputType="text"
+            />
+</PreferenceScreen>

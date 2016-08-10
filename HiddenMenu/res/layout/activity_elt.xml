@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@+id/eltLinearLayout" android:background="#ff000000"
+              android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_gravity="center"
+                  android:id="@+id/title_textView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+                  android:text="@string/elt_title"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/count_textView"
+                  android:layout_width="wrap_content" android:layout_height="fill_parent"
+                  android:text="@string/elt_count" android:layout_weight="0.3"/>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/countinfo_textView"
+                  android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/item_textView"
+                  android:layout_width="wrap_content" android:layout_height="fill_parent"
+                  android:text="@string/elt_item_backlight" android:layout_weight="0.3"/>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/iteminfo_textView"
+                  android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/status_textView"
+                  android:layout_width="wrap_content" android:layout_height="fill_parent"
+                  android:text="@string/elt_status" android:layout_weight="0.2"/>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/statusinfo_textView"
+                  android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/elt_ON"
+                  android:layout_weight="0.7"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/timertitle_textView"
+                  android:layout_width="wrap_content" android:layout_height="fill_parent"
+                  android:text="@string/elt_timer" android:layout_weight="0.2"/>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/timer_textView"
+                  android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.7"/>
+    </LinearLayout>
+</LinearLayout>

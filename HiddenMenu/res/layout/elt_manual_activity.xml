@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/textView1"
+              android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_marginTop="31.0dip" android:text="@string/elt_manual_title"
+              android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/elt_test_start" android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginLeft="30.0dip" android:layout_marginTop="38.0dip"
+                android:layout_below="@id/textView1" android:layout_alignParentLeft="true">
+        <RadioButton android:id="@+id/radio1" android:layout_width="232.0dip" android:layout_height="63.0dip"
+                     android:checked="true" android:text="@string/elt_manual_lcd_backlight"/>
+        <RadioButton android:id="@+id/radio2" android:layout_width="fill_parent" android:layout_height="61.0dip"
+                     android:text="@string/elt_manual_ringtone"/>
+        <RadioButton android:id="@+id/radio3" android:layout_width="186.0dip" android:layout_height="66.0dip"
+                     android:text="@string/elt_manual_vibrator"/>
+        <RadioButton android:id="@+id/radio4" android:layout_width="fill_parent" android:layout_height="73.0dip"
+                     android:text="@string/elt_manual_camera"/>
+    </RadioGroup>
+</RelativeLayout>

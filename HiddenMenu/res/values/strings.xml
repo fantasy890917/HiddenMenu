@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">HiddenMenu</string>
+    <string name="title_sim_info">SIM Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="list_sim_info"> SIM Info</string>
+    <string name="list_vsim_test">VSIM Test</string>
+    <string name="sim_info_mcc">MCC</string>
+    <string name="sim_info_mnc">MNC</string>
+    <string name="sim_info_gid">GID</string>
+    <string name="sim_info_spn">SPN</string>
+    <string name="sim_info_imsi">IMSI</string>
+    <string name="sim_info_iccid">ICCID</string>
+    
+    <string name="title_vsim_info">VSIM Test</string>
+    <string name="vsim_flexmode">Flex Mode ON/OFF</string>
+    <string name="vsim_mccmnc">SIM MCC-MNC</string>
+    <string name="vsim_imsi">SIM IMSI</string>
+    <string name="vsim_spn">SIM SPN</string>
+    <string name="vsim_gid">SIM GID</string>
+    <string name="vsim_ntcode">NTCODE MCC-MNC</string>
+    <string name="vsim_ntcode_subset">NTCODE SUBSET</string>
+
+    <string name="default_mode_off">Disabled</string>
+    <string name="default_mode_on">Enabled</string>
+    <string name="null_sim_card">no one sim in the phone</string>
+    <string name="imsi_format">please enter 6-15 digits</string>
+    <string name="list_virtual_uap">Virtual UA/UAP</string>
+    <string name="title_virtual_uap">Virtual UA/UAP</string>
+    <string name="simulate_sim_card">Simulate SIM card</string>
+    <string name="browser_ua_string">Browser UAString</string>
+    <string name="title_browser_uap_string">Browser UAString</string>
+    <string name="browser_ua_profile_url">Browser UAProfileURL</string>
+    <string name="browser_ua_profile_url_title">Browser UAProfileURL:</string>
+    <string name="mms_ua_string">MMS UAString</string>
+    <string name="mms_ua_profile_url">MMS UAProfileURL</string>
+
+    <string name="elt_auto_mode">Automatic Mode</string>
+    <string name="elt_auto_test">Automatic Test</string>
+    <string name="elt_manual_mode">Manual Mode</string>
+    <string name="elt_manual_test">Manual Test</string>
+    <string name="elt_select">Selected:</string>
+    <string name="elt_test_start">Test Start</string>
+    <string name="elt_auto_repeat_count">Repeat Count Setting</string>
+    <string name="elt_auto_1_time">1 time</string>
+    <string name="elt_auto_2_times">2 times</string>
+    <string name="elt_auto_3_times">3 times</string>
+    <string name="elt_auto_4_times">4 times</string>
+    <string name="elt_auto_5_times">5 times</string>
+    <string name="elt_auto_100_times">100 times</string>
+    <string name="elt_auto_infinite_times">Infinite times</string>
+    <string name="elt_manual_title">ELT Manual Test</string>
+    <string name="elt_manual_lcd_backlight">LCD Backlight</string>
+    <string name="elt_manual_ringtone">Ringtone</string>
+    <string name="elt_manual_vibrator">Vibrator</string>
+    <string name="elt_manual_camera">Camera</string>
+    <string name="elt_manual_stop">Stop</string>
+    <string name="elt_item_title">Title:</string>
+    <string name="elt_backlight">LCD Backlight</string>
+    <string name="elt_ringtone">Ringtone Test</string>
+    <string name="elt_vibrator">Vibrator Test</string>
+    <string name="elt_title">ELT Test</string>
+    <string name="elt_status">status:</string>
+    <string name="elt_ON">On</string>
+    <string name="elt_OFF">Off</string>
+    <string name="elt_Play">Playing</string>
+    <string name="elt_timer">Elapsed Time:</string>
+    <string name="elt_item_backlight">Title:LCD Backlight</string>
+    <string name="elt_item_ringtone">Title:Ringtone Test(15min)</string>
+    <string name="elt_item_vibrator">Title:Vibrator Test(15min)</string>
+    <string name="elt_item_enter_camera">Title:Camera Test</string>
+    <string name="elt_item_camera_preview">Title:Camera preview(15min)</string>
+    <string name="elt_finished">ELT finished</string>
+    <string name="elt_disable_temp_warning">disable temperature protection</string>
+    <string name="elt_enable_temp_warning">enable temperature protection</string>
+    <string name="elt_count">Count:</string>
+    <string name="vib_title">Vibrator Test</string>
+    
+    <!--call duration-->
+    <string name="list_call_test">Call Test</string>
+    <string name="call_duration_total">All calls</string>
+    <string name="call_duration_sim">Call Duration</string>
+    <string name="call_duration_dialog_title">Saved call time</string>
+    <string name="no_calls">No calls!</string>
+</resources>

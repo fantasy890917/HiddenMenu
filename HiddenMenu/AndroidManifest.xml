@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.huaqin.hiddenmenu"
+          android:sharedUserId="android.uid.system">
+          
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name=".HideMenu"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Material.Light"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".HideMenuReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.LG_SECRET_CODE" />
+
+                <data
+                    android:host="546368"
+                    android:scheme="android_secret_code" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".sim.SimInfoPreferenceActivity"
+            android:label="@string/title_sim_info"
+            android:theme="@android:style/Theme.Material.Light"
+            android:process="com.android.phone"/>
+        <activity android:name=".sim.VSimPreferenceActivity"
+            android:label="@string/title_vsim_info"
+            android:theme="@android:style/Theme.Material.Light"
+            android:process="com.android.phone"/>
+
+        <activity android:name=".uap.VirtualUAPPreferenceActivity"
+                  android:label="@string/title_virtual_uap"
+                  android:theme="@android:style/Theme.Material.Light"
+                  android:process="com.android.phone"/>
+
+        <activity android:name=".uap.BrowserUapString"
+                  android:label="@string/title_browser_uap_string"
+                  android:theme="@android:style/Theme.Material.Light"
+                  android:process="com.android.phone">
+        </activity>
+
+        <activity android:launchMode="singleTask" android:name=".elt.eltActivity" android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name=".elt.eltAutoActivity" android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:name=".elt.eltManualActivity" android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:launchMode="singleTask" android:name=".elt.eltDialogActivity" android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".elt.eltMainActivity" android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+
+        <activity android:name=".calltest.CallDurationActivity"
+            android:label="@string/call_duration_total">
+            <intent-filter>
+                <action android:name="android.intent.action.CALLTIME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            
+        <activity android:name=".calltest.CallTestItemsActivity"
+            android:label="@string/list_call_test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

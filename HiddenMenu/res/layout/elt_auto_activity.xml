@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@+id/textView1"
+              android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:layout_marginTop="31.0dip" android:text="@string/elt_auto_repeat_count"
+              android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/elt_test_start" android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="14.0dip" android:layout_below="@id/textView1"
+                android:layout_alignParentLeft="true">
+        <RadioButton android:id="@+id/radio1" android:layout_width="216.0dip" android:layout_height="48.0dip"
+                     android:checked="true" android:text="@string/elt_auto_1_time"/>
+        <RadioButton android:id="@+id/radio2" android:layout_width="fill_parent" android:layout_height="46.0dip"
+                     android:text="@string/elt_auto_2_times"/>
+        <RadioButton android:id="@+id/radio3" android:layout_width="fill_parent" android:layout_height="46.0dip"
+                     android:text="@string/elt_auto_3_times"/>
+        <RadioButton android:id="@+id/radio4" android:layout_width="fill_parent" android:layout_height="50.0dip"
+                     android:text="@string/elt_auto_4_times"/>
+        <RadioButton android:id="@+id/radio5" android:layout_width="fill_parent" android:layout_height="46.0dip"
+                     android:text="@string/elt_auto_5_times"/>
+        <RadioButton android:id="@+id/radio6" android:layout_width="fill_parent" android:layout_height="48.0dip"
+                     android:text="@string/elt_auto_infinite_times"/>
+        <RadioButton android:id="@+id/radio7" android:layout_width="fill_parent" android:layout_height="48.0dip"
+                     android:text="@string/elt_auto_100_times"/>
+    </RadioGroup>
+</RelativeLayout>

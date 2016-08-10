@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/list_vsim_test">
+
+    <Preference android:key="vsim_flexmode"
+        style="?android:attr/preferenceInformationStyle"
+        android:title="@string/vsim_flexmode"
+        android:summary="@string/default_mode_off"
+        android:persistent="false" />
+
+    <EditTextPreference
+        android:title="@string/vsim_mccmnc"
+        android:dialogTitle="@string/vsim_mccmnc"
+        android:key="vsim_mccmnc"
+        android:singleLine="true"
+        android:inputType="text"
+        />
+    <EditTextPreference
+        android:title="@string/vsim_imsi"
+        android:dialogTitle="@string/vsim_imsi"
+        android:key="vsim_imsi"
+        android:singleLine="true"
+        android:inputType="number"
+        />
+    <EditTextPreference
+        android:title="@string/vsim_spn"
+        android:dialogTitle="@string/vsim_spn"
+        android:key="vsim_spn"
+        android:singleLine="true"
+        android:inputType="text"
+        />
+    <EditTextPreference
+        android:title="@string/vsim_gid"
+        android:dialogTitle="@string/vsim_gid"
+        android:key="vsim_gid"
+        android:singleLine="true"
+        android:inputType="text"
+        />
+    <EditTextPreference
+        android:title="@string/vsim_ntcode"
+        android:dialogTitle="@string/vsim_ntcode"
+        android:key="vsim_ntcode"
+        android:singleLine="true"
+        android:inputType="text"
+        />
+    <EditTextPreference
+        android:title="@string/vsim_ntcode_subset"
+        android:dialogTitle="@string/vsim_ntcode_subset"
+        android:key="vsim_ntcode_subset"
+        android:singleLine="true"
+        android:inputType="text"
+        />
+</PreferenceScreen>
